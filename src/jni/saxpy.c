@@ -68,13 +68,14 @@ int main(){
         a1[i] = (float) rand()/(RAND_MAX/9999);
         b1[i] = (float) rand()/(RAND_MAX/9999);
     }
-
+    printf("\n");
     saxpy_simple(x_ser, a1, b1, c1, size1);
     saxpy_omp(x_par, a1, b1, c1, size1);    
-
+    printf("\n");
     saxpy_simple(x_ser, a1, b1, c1, size2);
     saxpy_omp(x_par, a1, b1, c1, size2);
-
+    printf("\n");
     saxpy_simple(x_ser, a1, b1, c1, size3);
     saxpy_omp(x_par, a1, b1, c1, size3);
+    printf("\n");
 }

@@ -1,5 +1,5 @@
 #APP_PROJECT_PATH := $(call my-dir)
-APP_MODULES      := app cpufeatures
+APP_MODULES      := saxpy cpufeatures
 #NDK_TOOLCHAIN_VERSION := 4.9
 APP_ABI          := armeabi-v7a
 #Para lollipop

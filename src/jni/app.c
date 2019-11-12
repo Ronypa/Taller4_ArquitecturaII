@@ -80,13 +80,14 @@ int main(){
         a1[i] = (float) rand()/(RAND_MAX/9999);
         b1[i] = (float) rand()/(RAND_MAX/9999);
     }
-
+    printf("\n");
     operations_ser(a1, b1, c1, size1);
     operations_par(a1, b1, c1, size1);
-
+    printf("\n");
     operations_ser(a1, b1, c1, size2);
     operations_par(a1, b1, c1, size2);
-
+    printf("\n");
     operations_ser(a1, b1, c1, size3);
     operations_par(a1, b1, c1, size3);
+    printf("\n");
 }
